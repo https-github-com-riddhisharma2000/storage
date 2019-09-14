@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">OopsProject</string>
+    <string name="vaad_vivaad">VAAD VIVAAD</string>
+    <string name="username">Username</string>
+    <string name="forgot_password">forgot password</string>
+    <string name="don_t_have_an_accout_sign_up">don\'t have an accout? sign up</string>
+    <string name="don_t_have_an_accout_SIGN_UP"/>
+    <string name="log_in">Log In</string>
+    <string name="check_your_mail_for_the_link_to_log_in">Check your mail for the link to log in</string>
+
+    <string name="Click_me"/>
+    <string name="password">password</string>
+    <string name="close">Close</string>
+    <string name="have_an_account">Have an account?</string>
+    <string name="sign_in">SIGN IN</string>
+</resources>

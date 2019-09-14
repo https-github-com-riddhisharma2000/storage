@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress AndroidDomInspection -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   android:background="#FFF"
+                                                   tools:context=".SecondActivity">
+
+
+    <TextView
+            android:text="@string/vaad_vivaad"
+            android:layout_width="247dp"
+            android:layout_height="66dp" android:id="@+id/vaadText"
+            android:textSize="29sp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.092"
+            android:textStyle="bold"
+            android:textColor="#090A0A"
+    />
+    <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/username"
+            android:ems="10"
+            android:textColorHint="#DCDCDC"
+            android:id="@+id/editText"
+
+
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/vaadText"
+            android:layout_marginEnd="80dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.268"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="82dp"/>
+    <Button
+            android:text="forgot password?"
+            android:textColor="#DCDCDC"
+            android:layout_width="120dp"
+            android:layout_height="52dp"
+            android:textSize="10sp"
+            android:id="@+id/forgetPasswordButton" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#FFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:textAllCaps="false" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/vaadText"
+    />
+    <Button
+            android:text="@string/log_in"
+            android:layout_width="134dp"
+            android:textColor="#FFF"
+            android:layout_height="49dp"
+            android:id="@+id/signUpButton"
+            android:elevation="50dp"
+            android:textAllCaps="false"
+
+            android:background="@drawable/signupbutton"
+            android:shadowColor="#292C2323" android:shadowDx="6" android:shadowDy="100"
+            android:shadowRadius="10" android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/forgetPasswordButton" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.445"
+            android:contentDescription="@android:string/VideoView_error_button" android:textSize="20sp"/>
+    <Button
+            android:text="don't have an accout? SIGN UP"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:id="@+id/sign_up" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:backgroundTint="#FCFCFC"
+            android:textAlignment="center" android:textSize="16sp" android:textAllCaps="false"
+
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/signUpButton"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="1.0"/>
+    <EditText
+            android:layout_width="250dp"
+
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/password"
+            android:textColorHint="#DCDCDC"
+            android:ems="10"
+            android:id="@+id/editText3"
+            tools:visibility="visible" android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/editText"
+            app:layout_constraintHorizontal_bias="0.51" app:layout_constraintVertical_bias="0.011"/>
+    <ImageView
+            android:layout_width="47dp"
+            android:layout_height="32dp" app:srcCompat="@drawable/eye"
+            android:id="@+id/imageView" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.787"
+            app:layout_constraintVertical_bias="0.483"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
