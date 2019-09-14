@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
 
                     val intent = Intent(this, SecondActivity::class.java)
                     startActivity(intent)
-
+// this project
         }
 
         btnShh.setOnClickListener {
